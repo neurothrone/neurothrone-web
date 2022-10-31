@@ -1,0 +1,20 @@
+/** main.css */
+
+body {
+    background-color: var(--body-background-color);
+    color: white;
+}
+
+/*.article {*/
+/*    background-color: var(--content-background-color);*/
+/*    border: 2px solid var(--content-border-color);*/
+/*    border-radius: 1em;*/
+/*    box-shadow: 0 2px 2px black;*/
+/*    color: var(--content-text-color);*/
+/*    overflow: auto;*/
+/*    padding: 0 1em 0 1em;*/
+/*}*/
+
+.article h2 {
+    color: var(--content-header-color);
+}

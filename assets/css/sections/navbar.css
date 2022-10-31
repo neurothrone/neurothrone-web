@@ -1,0 +1,25 @@
+/** navbar.css */
+
+/*
+ * Add colors and borders.
+ */
+.navbar {
+    background-color: var(--global-nav-bg-color);
+    border-bottom: 2px solid var(--global-nav-border-color);
+}
+
+/*
+ * Style links.
+ */
+.navbar a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: var(--nav-link-color);
+}
+
+.navbar a:hover {
+    color: var(--nav-link-hover-color);
+}

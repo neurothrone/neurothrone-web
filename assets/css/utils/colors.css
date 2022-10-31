@@ -1,0 +1,30 @@
+/** colors.css */
+
+/*
+ * CSS Variables.
+ */
+:root {
+    --global-nav-bg-color: #181818;
+    --global-nav-border-color: #303030;
+
+    --nav-link-color: #bababa;
+    --nav-link-hover-color: #a882ff;
+
+    --body-background-color: #1e1e1e;
+
+    --header-color: #f8f8f8;
+
+    --primary-text-color: #dadada;
+    --secondary-text-color: #bababa;
+
+    --primary-link-color: #8b6cef;
+    --secondary-link-color: #5f4c9b;
+
+    --content-background-color: #242424;
+    --content-border-color: #363636;
+    --content-header-color: #dadada;
+    --content-text-color: #b7b7b7;
+
+    --button-background-color: #7d5bed;
+    --button-text-color: #ffffff;
+}

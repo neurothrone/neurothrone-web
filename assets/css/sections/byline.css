@@ -1,0 +1,32 @@
+/** byline.css */
+
+.byline {
+    background: linear-gradient(var(--content-background-color), var(--nav-link-hover-color));
+    border: 1px solid var(--content-border-color);
+    border-radius: 1em;
+    box-shadow: 0 2px 2px black;
+    margin-top: 1em;
+    overflow: auto; /* Clearfix */
+    clear: both;    /* Clear float */
+}
+
+.byline .figure {
+    border: none;
+}
+
+.byline img {
+    border: 1px solid var(--content-border-color);
+    border-radius: 50%;
+}
+
+.byline p::first-letter {
+    font-size: 2em;
+}
+
+.byline p::first-line {
+    color: mediumpurple;
+}
+
+.byline p {
+    color: var(--content-text-color);
+}
