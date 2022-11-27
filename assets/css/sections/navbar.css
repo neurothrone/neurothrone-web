@@ -2,5 +2,5 @@
 
 .navbar {
     background-color: var(--bg-color-primary) !important;
-    border-bottom: 2px solid var(--global-nav-border-color);
+    box-shadow: 0 0.05em 0.5em 0.05em var(--bg-color-primary);
 }
