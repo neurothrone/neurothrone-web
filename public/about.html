@@ -5,20 +5,24 @@
   <meta name="author" content="Zaid Neurothrone">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>About</title>
+  <title>About - Neurothrone</title>
+  <!-- Brand icon -->
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png">
   <!-- Bootstrap Core CSS -->
   <link href="../assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome Core CSS -->
+  <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css">
   <!-- Custom CSS  -->
   <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column h-100">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container align-items-baseline mb-1">
+<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container align-items-baseline">
 
     <!-- Brand -->
-    <a class="navbar-brand"
+    <a class="navbar-brand interactive-element"
        href="index.html">Neurothrone
     </a>
 
@@ -37,36 +41,98 @@
     <div class="collapse navbar-collapse" id="global-navigation">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
+          <a class="nav-link interactive-element"
+             href="about.html"><span class="active">About</span></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="cv.html">CV</a>
+          <a class="nav-link interactive-element"
+             href="contact.html">Contact</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link interactive-element"
+             aria-current="page"
+             href="cv.html">CV
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link interactive-element"
+             href="portfolio.html">Portfolio</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
+<header class="mt-5">
+  <h1 class="mt-4 text-center display-4">About Me</h1>
+</header>
+
 <!-- Main Content -->
-<main>
-  <div class="container mb-4 mt-4">
-    <p>Matching .container...</p>
-  </div>
+<main class="container my-4 fs-5">
+  <article>
+    <p>My name is Zaid Neurothrone. I have had a life-long intellectual interest in the workings of the human mind and
+      its manifest complexities. I see myself as an experimentalist, and that’s why I have been preoccupied with
+      exploring a wide array of intellectual and academic interests, such as studying at university a social science
+      like social anthropology, as well as studying natural sciences like biology and chemistry. These studies have all
+      been attempts to try to discover how to express and work with my interests in the human mind. However, none of
+      these have been as stimulating and as fruitful for my way of approaching the world as programming has proven to be
+      ever since I was introduced to it under 2019. I am in particular interested by the experiential possibilities of
+      Augmented Reality, and how this natural user interface can paradigmatically alter and augment the way we approach
+      every facet of our technologically oriented societies and cultures.</p>
+
+    <p>As an AR-developer I will strive to be on the cutting edge and bandwagon of this paradigmatic technological and
+      medial shift. I hope to develop virtual tools and solutions to help everyone be as productive and creative as they
+      can be whilst striving to realize their goals, be it at home or in the workplace. I’m especially interested in
+      technical solutions that can help people with learning disabilities or cognitive disorders and illnesses – whether
+      it be dyslexia, ADHD or dementia – live a more fulfilled and productive life.</p>
+
+    <p>I believe AR will provide new tools to approach work and life, as well as making possible completely new ways of
+      crossing boundaries, coming together and sharing formative social experiences.</p>
+  </article>
 </main>
 
 <!-- Footer -->
-<footer class="footer bg-dark mt-auto pt-3">
-  <div class="container text-center text-white">
-    <p>&copy; 2022 Zaid Neurothrone</p>
+<footer class="container mt-auto color-text-secondary">
+  <div class="row">
+    <div class="col">
+      <p class="text-start">Neurothrone &copy; 2022</p>
+    </div>
+
+    <div class="col text-end">
+      <p><a class=" interactive-link"
+            href="#">Back to top</a>
+      </p>
+    </div>
   </div>
+
+  <ul class="list-inline text-start">
+    <li class="list-inline-item">
+      <a class="text-decoration-none"
+         href="https://github.com/neurothrone">
+        <i class="fa-brands fa-github-square fs-3 interactive-link"></i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="text-decoration-none"
+         href="https://linkedin.com/neurothrone">
+        <i class="fa-brands fa-linkedin fs-3 interactive-link"></i>
+      </a>
+    </li>
+  </ul>
+
+  <hr>
+
+  <p class="text-center">This site is powered by <a
+          class="interactive-link"
+          href="https://swift.org"
+          target="_blank">Swift</a> & <a
+          class="interactive-link"
+          href="https://vapor.codes"
+          target="_blank">Vapor</a>
+  </p>
 </footer>
 
 <!-- Bootstrap Core JS -->

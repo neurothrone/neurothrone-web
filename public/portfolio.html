@@ -5,20 +5,34 @@
   <meta name="author" content="Zaid Neurothrone">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>Portfolio</title>
+  <title>Portfolio - Neurothrone</title>
+  <!-- Brand icon -->
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png">
   <!-- Bootstrap Core CSS -->
   <link href="../assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome Core CSS -->
+  <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css">
   <!-- Custom CSS  -->
   <link href="../assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+  </style>
 </head>
 <body class="d-flex flex-column h-100">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container align-items-baseline mb-1">
+<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container align-items-baseline">
 
     <!-- Brand -->
-    <a class="navbar-brand"
+    <a class="navbar-brand interactive-element"
        href="index.html">Neurothrone
     </a>
 
@@ -37,36 +51,138 @@
     <div class="collapse navbar-collapse" id="global-navigation">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="cv.html">CV</a>
+          <a class="nav-link interactive-element"
+             href="about.html">About
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+          <a class="nav-link interactive-element"
+             href="contact.html">Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link interactive-element"
+             aria-current="page"
+             href="cv.html">CV
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link interactive-element"
+             href="portfolio.html"><span class="active">Portfolio</span></a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
+<header class="mt-5">
+  <h1 class="mt-4 text-center display-4">Portfolio</h1>
+</header>
+
 <!-- Main Content -->
-<main>
-  <div class="container mb-4 mt-4">
-    <p>Matching .container...</p>
+<main class="container my-4 fs-5">
+  <!-- iOS Projects -->
+  <h2 class="color-prominent-primary">iOS Projects</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+    <!-- FastTrack-->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary">
+        <img class="card-img-top"
+             src="../assets/img/projects/fast-track.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-link" href="#">FastTrack</a></h5>
+          <p class="card-text color-text-primary">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little longer.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- WeInventory-->
+    <div class="col">
+      <div class="card h-100 bg-color-primary custom-border">
+        <img class="card-img-top"
+             src="../assets/img/projects/we-inventory.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-link" href="#">WeInventory</a></h5>
+          <p class="card-text color-text-primary">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little longer.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gas Volume Calculator -->
+    <div class="col">
+      <div class="card h-100 bg-color-primary custom-border">
+        <img class="card-img-top"
+             src="../assets/img/projects/gas-volume-calculator.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-link" href="#">Gas Volume Calculator</a></h5>
+          <p class="card-text color-text-primary">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little longer.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, SwiftUI, Core Data</small>
+        </div>
+      </div>
+    </div>
+
   </div>
+
+  <!-- Python Projects -->
+  <h2 class="color-prominent-primary my-3">Python Projects</h2>
 </main>
 
 <!-- Footer -->
-<footer class="footer bg-dark mt-auto pt-3">
-  <div class="container text-center text-white">
-    <p>&copy; 2022 Zaid Neurothrone</p>
+<footer class="container mt-auto color-text-secondary">
+  <div class="row">
+    <div class="col">
+      <p class="text-start">Neurothrone &copy; 2022</p>
+    </div>
+
+    <div class="col text-end">
+      <p><a class=" interactive-link"
+            href="#">Back to top</a>
+      </p>
+    </div>
   </div>
+
+  <ul class="list-inline text-start">
+    <li class="list-inline-item">
+      <a class="text-decoration-none"
+         href="https://github.com/neurothrone">
+        <i class="fa-brands fa-github-square fs-3 interactive-link"></i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="text-decoration-none"
+         href="https://linkedin.com/neurothrone">
+        <i class="fa-brands fa-linkedin fs-3 interactive-link"></i>
+      </a>
+    </li>
+  </ul>
+
+  <hr>
+
+  <p class="text-center">This site is powered by <a
+          class="interactive-link"
+          href="https://swift.org"
+          target="_blank">Swift</a> & <a
+          class="interactive-link"
+          href="https://vapor.codes"
+          target="_blank">Vapor</a>
+  </p>
 </footer>
 
 <!-- Bootstrap Core JS -->
