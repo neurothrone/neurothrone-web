@@ -34,10 +34,10 @@
   background-color: var(--bg-color-tertiary);
 }
 
-
+/* Links */
 .interactive-element {
-  /* Overrides bootstrap nav-link styling */
-  color: var(--color-interactive)!important;
+  color: var(--color-interactive)!important; /* Overrides bootstrap nav-link styling */
+  text-decoration: none;
 }
 
 .interactive-element:hover {
@@ -63,14 +63,4 @@
 
 .color-text-secondary {
   color: var(--color-text-secondary);
-}
-
-/* Links */
-.interactive-link {
-  color: var(--color-interactive)!important;
-  text-decoration: none;
-}
-
-.interactive-link:hover {
-  color: darkgoldenrod!important;
 }
